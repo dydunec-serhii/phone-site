@@ -1,8 +1,31 @@
-.header {
-  background-image: url(.photo/background-image);
-  background-repeat: no-repeat;
+.container {
+  width: 322px;
+  outline: 1px solid red;
 }
 
-.ul-header {
+.baground-img {
+  background-image: url(../../photo/baground-head.jpg);
+  background-repeat: no-repeat;
+  width: 318px;
+  height: 538px;
+}
+
+.list {
   list-style: none;
+  padding-left: 0px;
+}
+
+.flex-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -7px;
+  gap: 9px;
+}
+
+.li-header {
+  margin-top: 19px;
 }/*# sourceMappingURL=main.css.map */

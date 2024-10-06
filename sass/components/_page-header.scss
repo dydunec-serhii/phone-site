@@ -1,3 +1,14 @@
-.ul-header{
+.list{
     list-style: none;
+    padding-left: 0px;
+}
+.flex-header{
+    display: flex;
+   justify-content: center;
+   margin-top: -7px;
+gap: 9px;
+}
+.li-header{
+    margin-top: 19px;
+    
 }
